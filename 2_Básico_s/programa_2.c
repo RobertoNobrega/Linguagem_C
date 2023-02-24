@@ -5,7 +5,7 @@ int main(void){
     printf("\n\t\tPrograma para Soma de Dois Números.\n\n\tPrimeiro Número: ");
     scanf("%d",&valor1);
     setbuf(stdin,NULL); /* Serve para Apagar o Buffer do Teclado, após usar o scanf, evitando
-    "sujeira" na Memória RAM. */
+    "valor lixo" na Memória RAM. */
     printf("\n\tSegundo Número: ");
     scanf("%d",&valor2);
     setbuf(stdin,NULL);
